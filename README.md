@@ -94,7 +94,8 @@ HLT
 
 ## Output  
 
-<img width="1190" height="673" alt="image" src="https://github.com/user-attachments/assets/4af5e265-2283-4152-b8d4-6e5b262dc740" />
+<img width="1587" height="577" alt="image" src="https://github.com/user-attachments/assets/3d2f7410-8e84-4fb0-bf12-1967c5e831c1" />
+
 
  
 ## Subtraction   of 8 bit numbers  ALP 
@@ -163,19 +164,63 @@ HLT
 
 ## Output
 
+<img width="1611" height="670" alt="image" src="https://github.com/user-attachments/assets/d1104760-aef9-4254-bb27-420c2fd7a0ab" />
 
 
 ## OR Operation of 8 bit numbers ALP
 
+```asm
+ORG 100H
+
+MOV AX, 000CH
+MOV BX, 000AH
+OR AX, BX
+MOV [1200H], AX
+HLT
+```
+
 ## Output
+
+<img width="1671" height="685" alt="image" src="https://github.com/user-attachments/assets/d378d2f1-c764-47f3-876e-83a3125d8540" />
+
 
 ## NOT Operation of 8 bit numbers ALP
 
+```asm
+ORG 100H
+
+MOV AX, 000FH
+NOT AX
+MOV [1200H], AX
+HLT
+```
+
 ## Output
+
+<img width="1581" height="671" alt="image" src="https://github.com/user-attachments/assets/7dc813cd-6805-461a-b9f8-8046b7f92944" />
+
+
+## XOR Operation of 8 bit numbers ALP
+
+```asm
+ORG 100H
+
+MOV AX, 000CH
+MOV BX, 000AH
+XOR AX, BX
+MOV [1200H], AX
+HLT
+```
+
+## Output
+
+<img width="1596" height="698" alt="image" src="https://github.com/user-attachments/assets/972078a5-8c89-475d-be92-db0e7dbfc7be" />
 
 
 ## Result :
  
+The execution of ALP on fundamental arithmetic and logical operations is completed successfully.
+
 
 
 
