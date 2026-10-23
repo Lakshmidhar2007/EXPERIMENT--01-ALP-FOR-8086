@@ -1,7 +1,10 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+
+Name : LAKSHMIDHAR N
+
+Roll no : 212224230138
+
+Date of experiment : 23/10/2026
 
 
 
@@ -78,21 +81,97 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```asm
+ORG 100H
 
+MOV AX, 0005H
+MOV BX, 0003H
+ADD AX, BX
+MOV [1200H], AX
+HLT
+```
 
 
 ## Output  
+
+<img width="1190" height="673" alt="image" src="https://github.com/user-attachments/assets/4af5e265-2283-4152-b8d4-6e5b262dc740" />
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+
+```asm
+ORG 100H
+
+MOV AX, 0009H
+MOV BX, 0004H
+SUB AX, BX
+MOV [1200H], AX
+HLT
+```
  
 ## Output  
+
+<img width="1597" height="696" alt="image" src="https://github.com/user-attachments/assets/5509ea88-2d52-4e91-90c1-57b019d69e6b" />
+
+
 ## Multiplication alp 
- ## Output  
+
+```asm
+ORG 100H
+
+MOV AX, 0005H
+MOV BX, 0003H
+MUL BX
+MOV [1200H], AX
+HLT
+```
+
+## Output  
+
+<img width="1567" height="666" alt="image" src="https://github.com/user-attachments/assets/b63e6f6b-70d7-42fb-9bc2-00c186db864f" />
 
 
 ## Division alp 
 
+```asm
+ORG 100H
+
+MOV AX, 0014H
+MOV BX, 0004H
+MOV DX, 0000H
+DIV BX
+MOV [1200H], AX
+HLT
+```
+
 ## Output  
+
+<img width="1561" height="668" alt="image" src="https://github.com/user-attachments/assets/baefb5e5-fb99-4afe-a860-2002a1d9fc47" />
+
+
+## AND Operation of 8 bit numbers ALP
+
+```asm
+ORG 100H
+
+MOV AX, 000CH
+MOV BX, 000AH
+AND AX, BX
+MOV [1200H], AX
+HLT
+```
+
+## Output
+
+
+
+## OR Operation of 8 bit numbers ALP
+
+## Output
+
+## NOT Operation of 8 bit numbers ALP
+
+## Output
 
 
 ## Result :
